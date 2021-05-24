@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.rivaresa.cusmateogl.final_confirmation.ConfirmationViewmodel" />
+            type="com.kosamattom.cusmateogl.final_confirmation.ConfirmationViewmodel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.rivaresa.cusmateogl.calculator.CalculatorViewmodel" />
+            type="com.kosamattom.cusmateogl.calculator.CalculatorViewmodel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

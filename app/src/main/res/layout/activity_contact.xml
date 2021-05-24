@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.rivaresa.cusmateogl.contact.ContactViewmodel" />
+            type="com.kosamattom.cusmateogl.contact.ContactViewmodel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

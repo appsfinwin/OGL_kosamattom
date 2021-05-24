@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#c91854</color>
-    <color name="colorPrimaryDark">#c91854</color>
+    <color name="colorPrimary">#c02640</color>
+    <color name="colorPrimaryDark">#c02640</color>
     <!--<color name="colorPrimary">#2186bc</color>
     <color name="colorPrimaryDark">#2186bc</color>-->
-    <color name="colorAccent">#c91854</color>
+    <color name="colorAccent">#c02640</color>
     <color name="white">#ffffff</color>
     <color name="l_white">#d6d6d6</color>
     <color name="l_black">#303030</color>
@@ -18,7 +18,7 @@
     <color name="item_color_1">#FFF</color>
     <color name="item_color_2">#FFF</color>
     <color name="brown">#5D4037</color>
-    <color name="l_red">#912725</color>
+    <color name="l_red">#c02640</color>
     <color name="green">#14a959</color>
     <color name="edit_text_highlight">#ffffff</color>
     <color name="bg_loading">#84000000</color>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.rivaresa.cusmateogl"
+    package="com.kosamattom.cusmateogl"
     xmlns:tools="http://schemas.android.com/tools"
     >
 
@@ -9,7 +9,7 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
-        android:name=".App"
+        android:name="com.kosamattom.cusmateogl.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -18,65 +18,65 @@
         android:theme="@style/AppTheme"
         tools:replace="android:icon"
         android:usesCleartextTraffic="true">
-        <activity android:name=".payment.axis_payment.AxisPaymentActivity"></activity>
-        <activity android:name=".payout.PayoutActivity" />
-        <activity android:name=".account_list.dialog_inventory_details.InventoryDetailsActivity" />
+        <activity android:name="com.kosamattom.cusmateogl.payment.axis_payment.AxisPaymentActivity"></activity>
+        <activity android:name="com.kosamattom.cusmateogl.payout.PayoutActivity" />
+        <activity android:name="com.kosamattom.cusmateogl.account_list.dialog_inventory_details.InventoryDetailsActivity" />
         <activity
-            android:name=".signup.SignupActivity"
+            android:name="com.kosamattom.cusmateogl.signup.SignupActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".reset_password.otp.OtpActivity"
+            android:name="com.kosamattom.cusmateogl.reset_password.otp.OtpActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".reset_password.reset_password.ResetPasswordActivity"
+            android:name="com.kosamattom.cusmateogl.reset_password.reset_password.ResetPasswordActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".reset_password.forgot_password.ForgotPasswordActivity"
+            android:name="com.kosamattom.cusmateogl.reset_password.forgot_password.ForgotPasswordActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".payment.paytm.PayUActivity"
+            android:name="com.kosamattom.cusmateogl.payment.paytm.PayUActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".contact.ContactActivity"
+            android:name="com.kosamattom.cusmateogl.contact.ContactActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".renew_loan.RenewLoanActivity"
+            android:name="com.kosamattom.cusmateogl.renew_loan.RenewLoanActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".final_confirmation.ConfirmationActivity"
+            android:name="com.kosamattom.cusmateogl.final_confirmation.ConfirmationActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".calculator.CalculatorActivity"
+            android:name="com.kosamattom.cusmateogl.calculator.CalculatorActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".finialize_amount.FinalizeAmountActivity"
+            android:name="com.kosamattom.cusmateogl.finialize_amount.FinalizeAmountActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".gold_loan.select_scheme.SelectSchemeActivity"
+            android:name="com.kosamattom.cusmateogl.gold_loan.select_scheme.SelectSchemeActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".account_details.closed_loans.ClosedLoansActivity"
+            android:name="com.kosamattom.cusmateogl.account_details.closed_loans.ClosedLoansActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".gold_loan.GoldLoanActivity"
+            android:name="com.kosamattom.cusmateogl.gold_loan.GoldLoanActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".payment.paytm.PaymentActivity"
+            android:name="com.kosamattom.cusmateogl.payment.paytm.PaymentActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".select_payment.SelectPaymentActivity"
+            android:name="com.kosamattom.cusmateogl.select_payment.SelectPaymentActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".account_details.AccountDetailsActivity"
+            android:name="com.kosamattom.cusmateogl.account_details.AccountDetailsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".account_list.AccountListActivity"
+            android:name="com.kosamattom.cusmateogl.account_list.AccountListActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".home.HomeActivity"
+            android:name="com.kosamattom.cusmateogl.home.HomeActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".login.LoginActivity"
+            android:name="com.kosamattom.cusmateogl.login.LoginActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -85,7 +85,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.kosamattom.cusmateogl.MainActivity"
             android:screenOrientation="portrait" />
 
         <uses-library

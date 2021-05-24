@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.rivaresa.cusmateogl"
+        applicationId "com.kosamattom.cusmateogl"
         minSdkVersion 22
         targetSdkVersion 29
         versionCode 1

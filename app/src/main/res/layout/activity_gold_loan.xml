@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.rivaresa.cusmateogl.gold_loan.GoldLoanViewmodel" />
+            type="com.kosamattom.cusmateogl.gold_loan.GoldLoanViewmodel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

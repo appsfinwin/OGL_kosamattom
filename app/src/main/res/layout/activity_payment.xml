@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.rivaresa.cusmateogl.payment.paytm.PaymentViewmodel" />
+            type="com.kosamattom.cusmateogl.payment.paytm.PaymentViewmodel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
