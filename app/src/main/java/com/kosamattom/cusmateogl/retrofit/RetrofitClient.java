@@ -26,11 +26,9 @@ public class RetrofitClient {
                     .build();
 
             retrofit_login = new Retrofit.Builder()
-                    //.baseUrl("https://ogluvnl.digicob.in/")
-                    //.baseUrl("http://192.168.0.221:170/")
-                    .baseUrl("http://testriviresaogl.digicob.in/")//rivaresa
-                    //.baseUrl("http://www.finwintechnologies.com:6940/")
-                    //.baseUrl("http://custmatetest.digicob.in/")
+
+                    //.baseUrl("http://testriviresaogl.digicob.in/")//rivaresa
+                    .baseUrl("http://oglkosamattom.digicob.in/")//kosamattom
                     .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                     .addConverterFactory(GsonConverterFactory.create())
                     .client(client)
